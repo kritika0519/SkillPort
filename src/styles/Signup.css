@@ -1,0 +1,47 @@
+/* Auth Container */
+.auth-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #161b22;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Form Inputs */
+.auth-container input, .auth-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #21262d;
+    color: white;
+}
+
+/* Buttons */
+.auth-container button {
+    background-color: #2ea043;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth-container button:hover {
+    background-color: #238636;
+}
+
+/* Links */
+.auth-container p a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+.auth-container p a:hover {
+    text-decoration: underline;
+}

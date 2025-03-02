@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #f1f1f1;
+  }
+  .gradient-text {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* For Webkit browsers */
+    -webkit-text-fill-color: transparent; /* For Webkit browsers */
+  }
+  
+  
+  form {
+    background: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #0f3460;
+    color: white;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #ff8a00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #e52e71;
+  }
+  
+  .challenge-card {
+    background: #16213e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+  }
+  
+  .challenge-card h3 {
+    color: #ff8a00;
+  }
+  
+  .challenge-card p {
+    color: #ccc;
+  }
+  

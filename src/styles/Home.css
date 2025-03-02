@@ -1,0 +1,114 @@
+/* Home Page Container */
+.home-container {
+    text-align: center;
+    background-color: #0d1117;
+    color: white;
+    padding: 40px;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1f6feb, #58a6ff);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.cta-button {
+    background-color: white;
+    color: #1f6feb;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.cta-button:hover {
+    background-color: #c9d1d9;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+}
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.about-section p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #c9d1d9;
+}
+.secondary-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #58a6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.secondary-button:hover {
+    background-color: #1f6feb;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 20px;
+    background-color: #161b22;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.projects-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-card {
+    background-color: #21262d;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+.project-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.project-card p {
+    font-size: 0.95rem;
+    color: #c9d1d9;
+}
+.project-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #58a6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.project-button:hover {
+    background-color: #1f6feb;
+}

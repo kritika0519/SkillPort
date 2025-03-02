@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script>
+        function addEducationField() {
+            var container = document.getElementById("educationFields");
+            var div = document.createElement("div");
+            div.className = "row g-2 mb-2 education-entry";
+            div.innerHTML = `
+                <div class="col-md-3">
+                    <input type="text" name="education[]" class="form-control" placeholder="Degree (e.g. B.Tech)" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="institution[]" class="form-control" placeholder="Institution Name" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="grad_year[]" class="form-control" placeholder="Graduated Year (e.g. 2024)" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" name="cgpa[]" class="form-control" placeholder="CGPA (e.g. 8.5)" required>
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-danger" type="button" onclick="this.parentElement.parentElement.remove()">−</button>
+                </div>
+            `;
+            container.appendChild(div);
+        }
+
+        function addProjectField() {
+            var container = document.getElementById("projectFields");
+            var div = document.createElement("div");
+            div.className = "row g-2 mb-2 project-entry";
+            div.innerHTML = `
+                <div class="col-md-3">
+                    <input type="text" name="project_name[]" class="form-control" placeholder="Project Name" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="project_desc[]" class="form-control" placeholder="Project Description" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="project_skills[]" class="form-control" placeholder="Skills Used" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" name="project_github[]" class="form-control" placeholder="GitHub Link">
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-danger" type="button" onclick="this.parentElement.parentElement.remove()">−</button>
+                </div>
+            `;
+            container.appendChild(div);
+        }
+
+        function addExperienceField() {
+            var container = document.getElementById("experienceFields");
+            var div = document.createElement("div");
+            div.className = "row g-2 mb-2 experience-entry";
+            div.innerHTML = `
+                <div class="col-md-4">
+                    <input type="text" name="experience_org[]" class="form-control" placeholder="Organization Name" required>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" name="experience_desc[]" class="form-control" placeholder="Experience Description" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="experience_year[]" class="form-control" placeholder="Year (e.g. 2023)" required>
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-danger" type="button" onclick="this.parentElement.parentElement.remove()">−</button>
+                </div>
+            `;
+            container.appendChild(div);
+        }
+    </script>
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <h2 class="text-center">Resume Generator</h2>
+        <form action="/" method="post" class="p-4 bg-white shadow rounded">
+            
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input type="text" name="name" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <input type="text" name="phone" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">LinkedIn</label>
+                <input type="text" name="linkedin" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">GitHub</label>
+                <input type="text" name="github" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">LeetCode</label>
+                <input type="text" name="leetcode" class="form-control">
+            </div>
+
+            <!-- Dynamic Education Fields -->
+            <div class="mb-3">
+                <label class="form-label">Education</label>
+                <div id="educationFields">
+                    <button class="btn btn-success mb-2" type="button" onclick="addEducationField()">+ Add Education</button>
+                </div>
+            </div>
+
+            <!-- Dynamic Project Fields -->
+            <div class="mb-3">
+                <label class="form-label">Projects</label>
+                <div id="projectFields">
+                    <button class="btn btn-success mb-2" type="button" onclick="addProjectField()">+ Add Project</button>
+                </div>
+            </div>
+
+            <!-- Dynamic Experience Fields -->
+            <div class="mb-3">
+                <label class="form-label">Experience</label>
+                <div id="experienceFields">
+                    <button class="btn btn-success mb-2" type="button" onclick="addExperienceField()">+ Add Experience</button>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Skills (comma-separated)</label>
+                <input type="text" name="skills" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Extra-Curricular Activities (comma-separated)</label>
+                <input type="text" name="extra_curricular" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Generate Resume</button>
+        </form>
+    </div>
+
+</body>
+</html>

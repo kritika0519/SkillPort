@@ -1,0 +1,137 @@
+Skill,Stack
+Sequence Models,AI Frameworks & Libraries
+TensorFlow,AI Frameworks & Libraries
+Keras,AI Frameworks & Libraries
+Flask,AI Frameworks & Libraries
+CNN,AI Frameworks & Libraries
+RNN,AI Frameworks & Libraries
+Hugging Face,AI Frameworks & Libraries
+Scikit-learn,AI Frameworks & Libraries
+PyTorch,AI Frameworks & Libraries
+OpenCV,AI Frameworks & Libraries
+FastAI,AI Frameworks & Libraries
+XGBoost,AI Frameworks & Libraries
+LightGBM,AI Frameworks & Libraries
+NLTK,AI Frameworks & Libraries
+spaCy,AI Frameworks & Libraries
+JAX,AI Frameworks & Libraries
+Genarative AI,AI Frameworks & Libraries
+CNN,AI Frameworks & Libraries
+Computer Vision,AI Frameworks & Libraries
+NLP,AI Frameworks & Libraries
+Natural Language Processing,AI Frameworks & Libraries
+Convutional Neural Networks,AI Frameworks & Libraries
+DL,AI Frameworks & Libraries
+Deep Learning,AI Frameworks & Libraries
+ONNX,AI Frameworks & Libraries
+Triton Inference Server,AI Frameworks & Libraries
+DeepSpeed,AI Frameworks & Libraries
+Megatron-LM,AI Frameworks & Libraries
+Ray,AI Frameworks & Libraries
+Python,Programming & Scripting Languages
+C,Programming & Scripting Languages
+C++,Programming & Scripting Languages
+Java,Programming & Scripting Languages
+JavaScript,Programming & Scripting Languages
+TypeScript,Programming & Scripting Languages
+PHP,Programming & Scripting Languages
+Ruby,Programming & Scripting Languages
+HTML,Programming & Scripting Languages
+CSS,Programming & Scripting Languages
+VBA,Programming & Scripting Languages
+Go,Programming & Scripting Languages
+Rust,Programming & Scripting Languages
+Swift,Programming & Scripting Languages
+Kotlin,Programming & Scripting Languages
+R,Programming & Scripting Languages
+MATLAB,Programming & Scripting Languages
+Shell Scripting,Programming & Scripting Languages
+SQL,Databases
+MySQL,Databases
+MS SQL Server,Databases
+MS Access,Databases
+MongoDB,Databases
+PostgreSQL,Databases
+Firebase,Databases
+Redis,Databases
+SQLite,Databases
+Cassandra,Databases
+Neo4j,Databases
+BigQuery,Databases
+Amazon Redshift,Databases
+Assembly Language (8085),Hardware-Level Programming
+Assembly Language (8086),Hardware-Level Programming
+pthread,Hardware-Level Programming
+Semaphores,Hardware-Level Programming
+Locks,Hardware-Level Programming
+Memory Management,Hardware-Level Programming
+Device Drivers Development,Hardware-Level Programming
+CUDA,Hardware-Level Programming
+cuDNN,Hardware-Level Programming
+TensorRT,Hardware-Level Programming
+NCCL,Hardware-Level Programming
+ROCm,Hardware-Level Programming
+OpenMP,Hardware-Level Programming
+OpenACC,Hardware-Level Programming
+GitLab,Web Development Tools
+Bitbucket,Web Development Tools
+Replit,Web Development Tools
+XAMPP,Web Development Tools
+WAMP,Web Development Tools
+Bootstrap,Web Development Tools
+Tailwind,Web Development Tools
+React.js,Web Development Tools
+Angular,Web Development Tools
+Vue.js,Web Development Tools
+Next.js,Web Development Tools
+Node.js,Web Development Tools
+Express.js,Web Development Tools
+Django,Web Development Tools
+FastAPI,Web Development Tools
+REST APIs,Web Development Tools
+GraphQL,Web Development Tools
+WebSockets,Web Development Tools
+PWA (Progressive Web Apps),Web Development Tools
+IoT Security,IoT & Embedded Systems
+Arduino,IoT & Embedded Systems
+Raspberry Pi,IoT & Embedded Systems
+Embedded C,IoT & Embedded Systems
+MicroPython,IoT & Embedded Systems
+MQTT,IoT & Embedded Systems
+Blockchain Development,Blockchain
+Smart Contracts (Solidity),Blockchain
+Ethereum,Blockchain
+Hyperledger,Blockchain
+Binance Smart Chain (BSC),Blockchain
+IPFS,Blockchain
+Zero-Knowledge Proofs,Blockchain
+Unity,Game Development
+Unreal Engine,Game Development
+Cocos2d,Game Development
+Godot,Game Development
+Vulkan,Game Development
+OpenXR,Game Development
+RealityKit,Game Development
+ARKit,Game Development
+Metal,Game Development
+Qiskit,Quantum Computing
+Cirq,Quantum Computing
+PennyLane,Quantum Computing
+Braket,Quantum Computing
+Computer Networks,Networking & Security
+Network Security,Networking & Security
+Ethical Hacking,Networking & Security
+Cybersecurity,Networking & Security
+Linux Administration,Networking & Security
+Windows Server Management,Networking & Security
+QUIC Protocol,Networking & Security
+RDMA,Networking & Security
+Homomorphic Encryption,Networking & Security
+TPM (Trusted Platform Module),Networking & Security
+Confidential Computing,Networking & Security
+"Secure Enclaves (SGX, SEV)",Networking & Security
+GitHub, Integrated Development Environments
+Workbench, Integrated Development Environments
+VS Code, Integrated Development Environments
+Jupyter, Integrated Development Environments
+MS 365 Tools, Integrated Development Environments

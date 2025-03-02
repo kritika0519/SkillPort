@@ -1,0 +1,4 @@
+Username,Password,Project Name,Skills Used,Description,GitHUB Link
+user1,pass1,AI Chatbot,"Python, NLP, Flask",A chatbot that uses AI and NLP to interact with users.,https://github.com/user1/Chatbot
+user1,pass1,Stock Predictor,"Machine Learning, Pandas",A predictive model for stock market trends.,https://github.com/user1/StockPredictor
+user1,pass1,E-commerce Website,"React, Django, PostgreSQL",A full-stack e-commerce platform with user authentication.,https://github.com/user1/EComWebsite

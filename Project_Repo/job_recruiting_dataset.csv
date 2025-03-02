@@ -1,0 +1,11 @@
+Job_ID,Job_Title,Company,Location,Job_Type,Salary_Range,Required_Skills,Experience_Level
+101,Software Engineer,TechCorp,New York,Full-Time,"$80,000-$120,000",Python; Java; SQL,Mid-Level
+102,Data Scientist,DataWiz,San Francisco,Full-Time,"$90,000-$130,000",Python; R; Machine Learning,Senior
+103,Frontend Developer,WebWorks,Remote,Contract,"$50,000-$80,000",React; JavaScript; HTML; CSS,Entry-Level
+104,Backend Developer,CloudTech,Austin,Full-Time,"$85,000-$110,000",Node.js; Express; MongoDB,Mid-Level
+105,Product Manager,Innovate Inc.,Boston,Full-Time,"$100,000-$140,000",Agile; Scrum; Communication,Senior
+106,HR Coordinator,PeopleFirst,Chicago,Part-Time,"$45,000-$60,000",Recruitment; Onboarding; HR Policies,Entry-Level
+107,Cybersecurity Analyst,SafetyNet,Washington D.C.,Full-Time,"$95,000-$130,000",Networking; Security; Python,Mid-Level
+108,AI Engineer,DeepLearn,Austin,Full-Time,"$120,000-$160,000",Deep Learning; NLP; TensorFlow,Senior
+109,Marketing Specialist,BrandBoost,Los Angeles,Contract,"$55,000-$75,000",SEO; Content Marketing; Analytics,Entry-Level
+110,UX Designer,DesignPros,Seattle,Full-Time,"$75,000-$105,000",UI/UX; Figma; Adobe XD,Mid-Level

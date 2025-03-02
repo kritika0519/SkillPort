@@ -1,0 +1,335 @@
+/* Profile Section - Image on Left, Info on Right */
+.profile-section {
+    display: flex;
+    align-items: center;
+    background-color: #161b22;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+.profile-section:hover {
+    transform: scale(1.02);
+}
+
+/* Small Profile Image */
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #58a6ff;
+    margin-right: 15px;
+}
+
+/* Profile Info */
+.profile-info {
+    flex-grow: 1;
+}
+.profile-info h2 {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+}
+.bio {
+    color: #8b949e;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+.github-link {
+    background-color: #58a6ff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+.github-link:hover {
+    background-color: #1f6feb;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Project Card */
+.project-card {
+    background: #161b22;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.description {
+    flex-grow: 1;
+    color: #8b949e;
+    font-size: 0.9rem;
+    padding: 10px 0;
+}
+.language {
+    font-size: 0.9rem;
+    color: #58a6ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto;
+}
+.code-btn, .live-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+   
+    transition: background 0.3s;
+}
+.code-btn {
+    background-color: #1f6feb;
+    color: white;
+}
+.code-btn:hover {
+    background-color: #58a6ff;
+}
+.live-btn {
+    background-color: #2ea043;
+    color: white;
+}
+.live-btn:hover {
+    background-color: #238636;
+}
+
+/* Stars */
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fbbc05;
+    margin-top: 10px;
+}
+.star-icon {
+    margin-right: 5px;
+}
+/* Center the Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers it horizontally */
+    background-color: #161b22;
+    padding: 15px;
+  
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto; /* Centers it on the page */
+    transition: transform 0.3s ease;
+}
+.profile-section:hover {
+    transform: scale(1.02);
+}
+
+/* Small Profile Image */
+.profile-img {
+    width: 50px;
+    height: 50px;
+ 
+    border: 2px solid #58a6ff;
+    margin-right: 15px;
+}
+
+/* Profile Info */
+.profile-info {
+    flex-grow: 1;
+    text-align: left;
+}
+.profile-info h2 {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+}
+.bio {
+    color: #8b949e;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+.github-link {
+    background-color: #58a6ff;
+    color: white;
+    padding: 6px 12px;
+
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+.github-link:hover {
+    background-color: #1f6feb;
+}
+/* Search Bar */
+.search-input {
+    padding: 14px 18px;  /* More padding for better spacing */
+    width: 100%;
+    max-width: 450px;  /* Slightly wider */
+    background: #21262d;
+    border: 1px solid #30363d;
+    /* Smooth rounded edges */
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* Placeholder Text */
+.search-input::placeholder {
+    color: #8b949e;
+    font-size: 0.9rem;
+    padding-left: 5px;  /* Small padding inside placeholder */
+}
+
+/* On Focus */
+.search-input:focus {
+    border-color: #58a6ff;
+    box-shadow: 0px 4px 10px rgba(88, 166, 255, 0.3);
+    background-color: #161b22;
+    padding: 16px 20px;  /* Slightly increase padding on focus for effect */
+}
+
+/* On Hover */
+.search-input:hover {
+    background-color: #1b1f24;
+    border-color: #58a6ff;
+    padding: 15px 19px;  /* Slight padding increase on hover */
+}
+/* Review Button */
+.review-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.3s;
+}
+.review-btn:hover {
+    background-color: #e68900;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Box */
+.modal {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+.modal h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.modal label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+}
+.modal input, .modal textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background: #21262d;
+    color: white;
+    font-size: 1rem;
+}
+.modal textarea {
+    resize: vertical;
+    height: 60px;
+}
+
+/* Modal Buttons */
+.modal-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.submit-btn {
+    background: #2ea043;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.submit-btn:hover {
+    background: #238636;
+}
+.cancel-btn {
+    background: #e63946;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.cancel-btn:hover {
+    background: #c53030;
+}
+/* Reviews Section */
+.reviews-section {
+    margin-top: 10px;
+    padding: 10px;
+    background: #21262d;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.review {
+    margin-bottom: 8px;
+    padding: 5px;
+    border-bottom: 1px solid #30363d;
+}
+.review:last-child {
+    border-bottom: none;
+}
